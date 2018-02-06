@@ -15,6 +15,6 @@ public class MySpanSizeLookup extends GridLayoutManager.SpanSizeLookup {
 
     @Override
     public int getSpanSize(int position) {
-        return (position % spanPos ==0 ? spanCnt2 : spanCnt1);
+        return (position % spanPos == 0 ? spanCnt2 : spanCnt1);
     }
 }

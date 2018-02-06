@@ -77,7 +77,6 @@ public class MyItemDecoration extends RecyclerView.ItemDecoration{
                     layoutManager.getDecoratedRight(child) - offset,
                     layoutManager.getDecoratedBottom(child) - offset,
                     paintRed);
-
         }
 
     }
